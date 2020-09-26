@@ -1,0 +1,7 @@
+** This text file includes two URLs for a static website hosted by FireBase **
+
+1. cse4050-hwanyilee.web.app
+
+2. cse4050-hwanyilee.firebaseapp.com
+
+
