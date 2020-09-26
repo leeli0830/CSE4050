@@ -1,0 +1,28 @@
+FireBase Hosting Documentation
+
+1. NodeJS package manager has to be installed to use "npm" command.
+
+2. Use "npm install -g firebase-tools" (This command installs "firebase-tools" globally("-g") on the computer)
+
+3. Use "firebase login" (To login to firebase account locally)
+
+   => When you face a permission denial error, try "sudo firebase login" (Only for UNIX based computers)
+
+   => Google account is required
+
+4. Use "firebase init" in the directory you want to deploy
+
+5. Choose "hosting" option for this tutorial
+
+6. Choose "Use an existing project" for thie tutorial (Make sure you already created a project on Firebase website)
+
+7. Choose the project you want to use
+
+8. Type in "y" to use as a public directory
+
+9. Type in "no" because our project has more than one page
+
+10. Move all of the files to deploy to "public" folder
+
+11. Use "firebase deploy" to deploy the file and start hosting
+
